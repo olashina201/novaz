@@ -1,0 +1,447 @@
+<?php include ("cpanel/link.php");?>
+
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+
+<!-- Mirrored from maelectrics.com/tf/html/quarter-preview/quarter/index-3.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Oct 2021 22:24:43 GMT -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>NOVAZ ARC - PROPERTY MANAGEMENT | Home</title>
+    <meta name="robots" content="noindex, follow" />
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<?php include ("files.php");?>
+</head>
+
+<body>
+    <!--[if lte IE 9]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+    <![endif]-->
+
+    <!-- Add your site or application content here -->
+ <body onload="searchdata()">
+<!-- Body main wrapper start -->
+<div class="body-wrapper">    
+    
+    <!-- HEADER AREA START (header-5) -->
+<?php include ("navs.php");?>
+
+    <?php include ("navmobile.php");?>
+    <div class="ltn__utilize-overlay"></div>
+
+    <div class="ltn__slider-area ltn__slider-3  section-bg-1">
+        <div class="ltn__slide-one-active slick-slide-arrow-1 slick-slide-dots-1">
+            <!-- ltn__slide-item -->
+            <div class="ltn__slide-item ltn__slide-item-2 ltn__slide-item-3-normal ltn__slide-item-3">
+                <div class="ltn__slide-item-inner">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12 align-self-center">
+                                <div class="slide-item-info">
+                                    <div class="slide-item-info-inner ltn__slide-animation">
+                                        <div class="slide-video mb-50 d-none">
+                                            <a class="ltn__video-icon-2 ltn__video-icon-2-border" href="https://www.youtube.com/embed/tlThdr3O5Qo" data-rel="lightcase:myCollection">
+                                                <i class="fa fa-play"></i>
+                                            </a>
+                                        </div>
+                                        <h6 class="slide-sub-title white-color--- animated"><span><i class="fas fa-home"></i></span> Real Estate Agency</h6>
+                                        <h1 class="slide-title animated ">Find a home <br> that stays in your budget.</h1>
+                                        <div class="slide-brief animated">
+                                            <p>Buying a home is not something you do every day—it’s a big deal! Our goal is to take the guesswork out and help you get a stress-free Houses that you won’t regret.</p>
+                                        </div>
+                                        <div class="btn-wrapper animated" style="display: none;">
+                                            <a href="about" class="theme-btn-1 btn btn-effect-1">Make An Enquiry</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slide-item-img">
+                                    <img src="img/slider/21.png" alt="#">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+   
+        </div>
+    </div>
+
+    <div class="ltn__car-dealer-form-area mt--65 mt-120 pb-115---">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="ltn__car-dealer-form-tab">
+                        <div class="ltn__tab-menu  text-uppercase d-none">
+                            <div class="nav">
+                                <a class="active show" data-bs-toggle="tab" href="#ltn__form_tab_1_1"><i class="fas fa-car"></i>Find A Car</a>
+                                <a data-bs-toggle="tab" href="#ltn__form_tab_1_2" class=""><i class="far fa-user"></i>Get a Dealer</a>
+                            </div>
+                        </div>
+                        <div class="tab-content bg-white box-shadow-1 position-relative pb-10">
+                            <div class="tab-pane fade active show" id="ltn__form_tab_1_1">
+                                <div class="car-dealer-form-inner">
+                                    <form action="#" class="ltn__car-dealer-form-box row">
+                                        <div class="ltn__car-dealer-form-item ltn__custom-icon---- ltn__icon-car---- col-lg-3 col-md-6">
+                                            <select class="nice-select">
+                                                <option>Choose Area</option>
+                                                <option>Bariga</option>
+                                                <option>Lekki</option>
+                                                <option>Ketu</option>
+                                                <option>Ajah</option>
+                                                <option>Ikeja</option>
+                                            </select>
+                                        </div> 
+                                        <div class="ltn__car-dealer-form-item ltn__custom-icon---- ltn__icon-meter---- col-lg-3 col-md-6">
+                                            <select class="nice-select">
+                                                <option>Property Status</option>
+                                                <option>Open house</option>
+                                                <option>Rent</option>
+                                                <option>Sale</option>
+                                                <option>Sold</option>
+                                            </select>
+                                        </div> 
+                                        <div class="ltn__car-dealer-form-item ltn__custom-icon---- ltn__icon-calendar---- col-lg-3 col-md-6">
+                                            <select class="nice-select">
+                                                <option Value ="" selected="selected">Select</option>
+                                                <option value="1">Houses</option>
+                                                <option value="2">Hostel</option>
+                                                <option value="3">Lands</option>
+                                                <option value="4">Shortlet</option>
+                                            </select>
+                                        </div>
+                                        <div class="ltn__car-dealer-form-item ltn__custom-icon ltn__icon-calendar col-lg-3 col-md-6">
+                                            <div class="btn-wrapper text-center mt-0">
+                                                <!-- <button type="submit" class="btn theme-btn-1 btn-effect-1 text-uppercase">Search Inventory</button> -->
+                                                <a href="shop-grid" class="btn theme-btn-1 btn-effect-1 text-uppercase">Find Now</a>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="ltn__form_tab_1_2">
+                                <div class="car-dealer-form-inner">
+                                    <form action="#" class="ltn__car-dealer-form-box row">
+                                        <div class="ltn__car-dealer-form-item ltn__custom-icon---- ltn__icon-car---- col-lg-3 col-md-6">
+                                            <select class="nice-select">
+                                                <option>Choose Area</option>
+                                                <option>chicago</option>
+                                                <option>London</option>
+                                                <option>Los Angeles</option>
+                                                <option>New York</option>
+                                                <option>New Jersey</option>
+                                            </select>
+                                        </div> 
+                                        <div class="ltn__car-dealer-form-item ltn__custom-icon---- ltn__icon-meter---- col-lg-3 col-md-6">
+                                            <select class="nice-select">
+                                                <option>Property Status</option>
+                                                <option>Open house</option>
+                                                <option>Rent</option>
+                                                <option>Sale</option>
+                                                <option>Sold</option>
+                                            </select>
+                                        </div> 
+                                        <div class="ltn__car-dealer-form-item ltn__custom-icon---- ltn__icon-calendar---- col-lg-3 col-md-6">
+                                            <select class="nice-select">
+                                                <option>Property Type</option>
+                                                <option>Apartment</option>
+                                                <option>Co-op</option>
+                                                <option>Condo</option>
+                                                <option>Single Family Home</option>
+                                            </select>
+                                        </div>
+                                        <div class="ltn__car-dealer-form-item ltn__custom-icon ltn__icon-calendar col-lg-3 col-md-6">
+                                            <div class="btn-wrapper text-center mt-0">
+                                                <!-- <button type="submit" class="btn theme-btn-1 btn-effect-1 text-uppercase">Search Inventory</button> -->
+                                                <a href="shop-right-sidebar" class="btn theme-btn-1 btn-effect-1 text-uppercase">Search Properties</a>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- FEATURE AREA START ( Feature - 6) -->
+    <div class="ltn__feature-area section-bg-1---  mb-120---">
+                <br> <br>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title-area ltn__section-title-2--- text-center">
+                        <h6 class="section-subtitle section-subtitle-2 ltn__secondary-color h1">Our Services</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="row ltn__custom-gutter---  justify-content-center">
+                <div class="col-lg-4 col-sm-6 col-12">
+                    <div class="ltn__feature-item ltn__feature-item-6 text-center bg-white  box-shadow-1">
+                        <div class="ltn__feature-icon">
+                            <!-- <span><i class="flaticon-house"></i></span> -->
+                            <img src="img/icons/icon-img/21.png" alt="#">
+                        </div>
+                        <div class="ltn__feature-info">
+                            <h3><a href="service-details.html">Buy a property</a></h3>
+                            <p>Let us help you through the process of buying a home.</p>
+                            <a class="ltn__service-btn" href="houses">Find A Home <i class="flaticon-right-arrow"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12">
+                    <div class="ltn__feature-item ltn__feature-item-6 text-center bg-white  box-shadow-1 active">
+                        <div class="ltn__feature-icon">
+                            <!-- <span><i class="flaticon-house-3"></i></span> -->
+                            <img src="img/icons/icon-img/22.png" alt="#">
+                        </div>
+                        <div class="ltn__feature-info">
+                            <h3><a href="service-details.html">Rent a property</a></h3>
+                            <p>We can help you find the perfect apartment of your choice.</p>
+                            <a class="ltn__service-btn" href="hostel">Find A Home <i class="flaticon-right-arrow"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12">
+                    <div class="ltn__feature-item ltn__feature-item-6 text-center bg-white  box-shadow-1">
+                        <div class="ltn__feature-icon">
+                            <!-- <span><i class="flaticon-deal-1"></i></span> -->
+                            <img src="img/icons/icon-img/23.png" alt="#">
+                        </div>
+                        <div class="ltn__feature-info">
+                            <h3><a href="service-details.html">Sell a property</a></h3>
+                            <p>We can help you on how to sell your home effortlessly with seamless transition.</p>
+                            <a class="ltn__service-btn" href="/users/login">Find A Home <i class="flaticon-right-arrow"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- PRODUCT SLIDER AREA START -->
+    <div class="ltn__product-slider-area ltn__product-gutter ">
+        <div class="container">
+            <br> <br>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title-area ltn__section-title-2--- text-center">
+                        <h6 class="section-subtitle section-subtitle-2 ltn__secondary-color h1">Featured Listing</h6>
+                     </div>
+                </div>
+            </div>
+        
+            <div class="row ">
+<?php
+$qr = mysqli_query($link, "SELECT * FROM business WHERE cate !='' ");
+$bsn = mysqli_num_rows($qr) > 0;
+				
+ 
+	 if($bsn)
+ 	  {
+		while($rowb = mysqli_fetch_assoc($qr))
+		{
+		 ?>
+                <div class="col-md-3">
+                    <div class="ltn__product-item ltn__product-item-4 text-center---">
+                        <div class="product-img" style="padding-bottom:5px; margin-bottom:5px;">
+                            <a href="product-details?pid=<?php echo $rowb['id'];?>"><img src="uploads/<?php echo $rowb['imagepath'];?>"  alt="#"/></a>
+                            <div class="product-badge">
+                                <ul>
+                                    <li class="sale-badge bg-danger">
+									<?php 
+									if($rowb['status'] == 1)
+									{
+										?>
+                                    <li class="sale-badge bg-green">Available</li>
+                                        <?php
+									}
+									elseif($rowb['status'] == 2)
+									{
+										?>
+                                    <li class="sale-badge bg-danger">Not Available</li>
+                                        <?php
+											
+									}
+									?>
+                                </ul>
+                            </div>
+                            <div class="product-img-location-gallery">
+                                <div class="product-img-location">
+                                    <ul>
+                                        <li>
+                                            <a ><i class="flaticon-pin"><?php echo $rowb['address'];?></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                             </div>
+                        </div>
+                        <div class="product-info" style="padding-top:0px; margin-top: 0px;">
+                        
+                            <div class="product-price" style="padding-bottom:0px;">
+                                <span id="amount">&#8358; <?php echo number_format($rowb['price'], 2);?> 
+                                    <label>
+                                    <?php if($rowb['purpose'] ==1)
+                                    {
+                                    echo 'Annually'; 
+                                    }
+                                    elseif($rowb['purpose'] ==2){
+                                    echo 'One off';
+                                    }
+                                    ?>
+                                    </label>
+                                </span>
+                            </div>
+                            <h2 class="product-title">
+                            <a href="product-details?pid=<?php echo $rowb['id'];?>">
+							<?php if($rowb['cate'] =1) 
+							{
+							 echo 'House';	
+							}
+							elseif($rowb['cate'] =2) 
+							{
+							 echo 'Hostel';	
+							}
+							elseif($rowb['cate'] =3) 
+							{
+							 echo 'Land';	
+							}
+							elseif($rowb['cate'] =4) 
+							{
+							 echo 'Shortlet';	
+							}
+							elseif($rowb['cate'] =5) 
+							{
+							 echo 'Shop';	
+							}
+							elseif($rowb['cate'] =6) 
+							{
+							 echo 'Office';	
+							}
+							?>
+                            </a>
+                            </h2>
+                            <div class="product-description" style="color:#090909">
+                                <p><?php echo $rowb['catedescript'];?>
+                                    </p>
+                            </div>
+                         </div>
+                     </div>
+                </div>
+         <?php 
+		}
+	 }
+	
+?>
+			</div>
+
+        </div>
+    </div>
+
+    <br> <br> 
+       <!-- TESTIMONIAL AREA START -->
+    <div class="ltn__testimonial-area ltn__testimonial-4 plr--9" style="display: ;">
+                <br> 
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title-area ltn__section-title-2--- text-center">
+                        <h6 class="section-subtitle section-subtitle-2 ltn__secondary-color h1">Clients Feedback</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="ltn__testimonial-slider-4 ltn__testimonial-slider-4-active slick-arrow-1">
+                        
+                        <div class="ltn__testimonial-item-5">
+                            <div class="ltn__quote-icon">
+                                <i class="far fa-comments"></i>
+                            </div>
+                            <div class="ltn__testimonial-image" style="display: none;">
+                                <img src="img/testimonial/1.jpg" alt="quote">
+                            </div>
+                            <div class="ltn__testimonial-info">
+                                <p> I appreciate the market analysis you brought to the table as it helped to ground the discussion on concessions, asking rents and street rents in our market. </p>
+                                <h4>Sola Ogundipe</h4>
+                             </div>
+                        </div>
+
+                     </div>
+                    <ul class="ltn__testimonial-quote-menu d-none d-lg-block">
+
+                     </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+ 
+<?php include ("footer.php");?>
+
+ 
+    <!-- MODAL AREA END -->
+
+</div>
+<!-- Body main wrapper end -->
+
+    <!-- preloader area start -->
+    <div class="preloader d-none" id="preloader">
+        <div class="preloader-inner">
+            <div class="spinner">
+                <div class="dot1"></div>
+                <div class="dot2"></div>
+            </div>
+        </div>
+    </div>
+    <!-- preloader area end -->
+<script>
+ function  searchimages(){
+			var diags =  $(this).closest('tr').find('.diag_id').text();
+			var regiid =  $(this).closest('tr').find('.regi_id').text(); 
+
+			var hospitalid =  $(this).closest('tr').find('.hospital_id').text(); 
+
+			var branchid =  $(this).closest('tr').find('.branch_id').text(); 
+
+             var typ = "Diagnosis";
+
+                $.ajax({
+					type: "POST",
+                    url: "scripts/",
+					cache:false,
+                    data: {typ: typ, diags: diags, regiid: regiid, hospitalid: hospitalid, branchid: branchid},
+                     success: function(result)  
+                    {
+ 						  //console.log(result);
+						  $.each(result, function (key, value){
+							 $('#sid').val(value['id']); 
+							 $('#hospitalid').val(value['hospitalid']); 
+							 $('#branchid').val(value['branchid']); 
+							 $('#registerid').val(value['registerid']); 
+							 $('#taskid').val(value['taskid']); 
+							 $('#pcompts').val(value['complaints']); 
+							 $('#clinicalsigns').val(value['clinicalsigns']); 
+							 $('#diagnosis').val(value['diagnosis']); 
+						  });
+						  $('#Editdiag').modal('show');
+                     }
+                });
+		 
+ }
+</script>
+    <!-- All JS Plugins -->
+    <script src="js/plugins.js"></script>
+    <!-- Main JS -->
+    <script src="js/main.js"></script>
+  
+</body>
+
+<!-- Mirrored from maelectrics.com/tf/html/quarter-preview/quarter/index-3.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Oct 2021 22:24:47 GMT -->
+</html>
+
