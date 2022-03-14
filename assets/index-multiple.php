@@ -94,9 +94,3 @@ if (!$sock = @fsockopen('www.google.com', 80, $num, $error, 5))
 
 	 
  }
-
-		
-
-
-		
-?>
