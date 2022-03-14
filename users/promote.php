@@ -62,7 +62,6 @@ $fname = $row['fname'];
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right" style="display:;">
               <li class="breadcrumb-item"><a href="../">Portal Home</a></li>
-              
             </ol>
           </div>
         </div> 
