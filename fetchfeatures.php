@@ -2,7 +2,7 @@
 <div class="row  slick-arrow-1">
 <?php
 
-$qr = mysqli_query($link, "SELECT * FROM business WHERE promotion ='active'");
+$qr = mysqli_query($link, "SELECT * FROM business WHERE promotion ='active' ORDER BY id DESC");
 $bsn = mysqli_num_rows($qr) > 0;
 				
  
