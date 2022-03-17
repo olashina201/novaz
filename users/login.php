@@ -161,7 +161,7 @@ if(isset($_SESSION['name']))
                         else if(data.includes("Successful"))
                         {
                             $(this).delay(1000).queue(function() {
-                                location.href="dashboard";
+                                location.href="../index";
                             $(this).dequeue();
                             });      
                         }    

@@ -777,7 +777,7 @@ $(document).ready(function(){
         }
 		function Doneall()
 		{
-			location.href="done";
+			location.href="/novaz";
 		}
 </script>
 </body>

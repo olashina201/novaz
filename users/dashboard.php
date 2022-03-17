@@ -1,14 +1,13 @@
 <?php
 
 session_start();
-/*
+
 if(!$_SESSION['LOGIN_STATE'])
 {
 			echo '<script> location.href="login";</script>';
 exit();
 }
  
-*/
 
 
 $_SESSION['US_mail'];

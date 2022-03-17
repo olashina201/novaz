@@ -1,3 +1,10 @@
+<?php 
+ 
+ include ("./cpanel/link.php");
+ session_start();
+ 
+ 
+ ?>
     <header class="ltn__header-area ltn__header-5 ltn__header-transparent--- gradient-color-4---">
         
         <div class="ltn__header-middle-area ltn__header-sticky ltn__sticky-bg-white">
@@ -59,17 +66,35 @@
                       
                         <!-- user-menu -->
                         <div class="ltn__drop-menu user-menu">
+                        <?php 
+                         if($_SESSION) { 
+                            $uml =  $_SESSION['US_mail'];
+ 
+                            $qry  = mysqli_query($link, "SELECT * FROM user WHERE email = '$uml' ");
+                            $dprw = mysqli_fetch_array($qry); ?>
+                            <ul>
+                                <li>
+                                    <a href="#" class="rounded-circle"><img class="rounded-circle img-fluid" style="height: 45px; width: 43px" src="./upreg/<?php echo $dprw['uimg'] ?>"alt="User Image"></a>
+                                    <ul>
+                                        <li><a href="users/dashboard">My Account</a></li>
+                                        <li><a href="users/logout">Logout</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        <?php  } else
+                                    { ?>
                             <ul>
                                 <li>
                                     <a href="#"><i class="icon-user"></i></a>
                                     <ul>
                                         <li><a href="users/login">Sign in</a></li>
                                         <li><a href="users/register">Register</a></li>
-                                        <li><a href="users/login">My Account</a></li>
-                                       
+                                        <li><a href="users/dashboard">My Account</a></li>
+                                     
                                     </ul>
                                 </li>
                             </ul>
+                            <?php } ?>
                         </div>
                         <!-- mini-cart -->
                         <div>
