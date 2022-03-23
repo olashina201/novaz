@@ -404,7 +404,7 @@
  			else{
               $('#resultss').html("<center><br><h3><i class='fa fa-spinner fa-spin'></i> Searching...</h3></center>");
                 $.ajax({
-                    url: "/checkav/",
+                    url: "checkav/",
                     data: {typ: typ, area: area, status: status, type: type},
                     type: "POST",
                     success: function(result)  
