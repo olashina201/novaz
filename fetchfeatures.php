@@ -2,7 +2,7 @@
 <div class="row  slick-arrow-1">
 	<?php
 
-	$qr = mysqli_query($link, "SELECT * FROM business WHERE promotion ='active' ORDER BY id DESC");
+	$qr = mysqli_query($link, "SELECT * FROM business WHERE status = 1 ORDER BY promotion");
 	$bsn = mysqli_num_rows($qr) > 0;
 	if ($bsn) {
 		while ($rowb = mysqli_fetch_assoc($qr)) {
@@ -14,7 +14,6 @@
 			if (mysqli_num_rows($qs) > 0) {
 
 				while ($row = mysqli_fetch_array($qs)) {
-
 					$myct = $row['totcount'];
 				}
 			}
@@ -45,7 +44,11 @@
 						<div class="product-badge">
 							<ul>
 								<?php
-								if ($rowb['status'] == 1) {
+								if ($rowb['promotion'] == 'active') {
+									?>
+									<li class="sale-badge bg-danger">Promoted</li>
+								<?php }
+								elseif ($rowb['status'] == 1) {
 								?>
 									<li class="sale-badge bg-green">Available</li>
 								<?php
@@ -88,13 +91,7 @@
 						<p style="font-weight: bold;"><?php echo $rowb['catedescript']; ?>
 						</p>
 					</div>
-					<div class="" style="padding-top:0px; margin-top: 0px;">
-						<div class="product-price" style="padding-bottom:0px; margin-top:0px; padding-top: 0px; padding-left: 10px;">
-							<div style="padding-bottom:0px; font-size: 14px; margin-top:0px; padding-top: 0px;" id="amount">&#8358; <?php echo number_format($rowb['price'], 2); ?>
 
-							</div>
-						</div>
-					</div>
 					<?php
 					include("bbrooms.php");
 					?>
@@ -106,7 +103,6 @@
 							$rowu = mysqli_fetch_array($qrs);
 
 							?>
-
 							<div class="agent-img">
 								<img src="upreg/<?php echo $rowu['uimg']; ?>" height="40" width="40">
 							</div>

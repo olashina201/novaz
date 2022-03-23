@@ -4,14 +4,14 @@
         <div class="ltn__utilize-menu-inner ltn__scrollbar">
             <div class="ltn__utilize-menu-head">
                 <div class="site-logo">
-                    <a href="../"><img src="img/mlogo.png" alt="Logo"></a>
+                    <a href=""><img src="img/mlogo.png" alt="Logo"></a>
                 </div>
                 <button class="ltn__utilize-close">×</button>
             </div>
             
             <div class="ltn__utilize-menu">
                 <ul>
-                    <li><a href="../">Home</a>
+                    <li><a href="/">Home</a>
                        
                     </li>
                     <li><a href="#">Shop</a>

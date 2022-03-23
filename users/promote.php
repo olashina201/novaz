@@ -94,8 +94,8 @@ $fname = $row['fname'];
 									
                                     <select type="text" class="form-control" name="amount" id="amount">
                                         <option value="" selected ="Selected"> Select</option>
-                                         <option value="2499">TOP (BEST OFFER) - &#8358; 2499.00 For 7 days</option>
-                                        <option value="14000">Boost Premium - &#8358; 14,000.00  For 30 days</option>
+                                         <option value="1500">TOP (BEST OFFER) - &#8358; 1500.00 For 7 days</option>
+                                        <option value="5500">Boost Premium - &#8358; 5,500.00  For 30 days</option>
                                     </select>
                                 </div>
                                 
