@@ -52,6 +52,11 @@ $war = strip_tags($_POST['wardrobe']);
 $wifi = strip_tags($_POST['wifi']);
 $shelf = strip_tags($_POST['kitchenshelf']);
 
+// agent fee
+$agent_fee = strip_tags($_POST['agent_fee']);
+$commision_fee = strip_tags($_POST['commision_fee']);
+$agreement_fee = strip_tags($_POST['agreement_fee']);
+
 $goin = 0;
 $em;
 /* 		
@@ -93,12 +98,12 @@ if ($goin == 1) {
 		`pspace`, `ptype`, `condition`, `furnit`, `broom`, `batroom`, `toilet`, `price`, `negotiable`, 
 		`elec`, `aric`, `appart`, `bal`, `chan`, `dinning`, `dish`, `hot`, `kitchen`, `micro`, `pop`, 
 		`prepa`, `frid`, `floor`, `tv`, `war`, `wifi`, `shelf`, `sumnitdate`, `time`, `uemail`, `systemip`, 
-		`status`, `uname`, `uid`, `promotion`, `busiid`) 
+		`status`, `uname`, `uid`, `promotion`, `busiid`, `agent_fee`, `agreement_fee`, `commision_fee`) 
 		VALUES('$cate', '$purpose',  '$description', '$country', '$state', '$lga', '$address',	'$estname', '$psize', 
 		'$pspace', '$ptype', '$condition', '$furnishing', '$broom', '$batroom',	'$toilet', '$price', '$negotiate', 
 		'$elec', '$air', '$apart', '$balcony', '$chan', '$dinning', '$dishwash', '$hotwater', '$kitcab', 
 		'$micro', '$pop', '$prepa', '$frid', '$floor', '$tv', '$war', '$wifi', '$shelf',
-		'$dt', '$st', '$em', '$ip', '1','$uname', '$uid', 'active', '$transid')");
+		'$dt', '$st', '$em', '$ip', '1','$uname', '$uid', 'active', '$transid', '$agent_fee', '$agreement_fee', '$commision_fee')");
 
 	if ($query) {
 		echo "Good";
