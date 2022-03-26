@@ -54,7 +54,7 @@ $shelf = strip_tags($_POST['kitchenshelf']);
 
 // agent fee
 $agent_fee = strip_tags($_POST['agent_fee']);
-$commision_fee = strip_tags($_POST['commision_fee']);
+$commision_fee = strip_tags($_POST['commission_fee']);
 $agreement_fee = strip_tags($_POST['agreement_fee']);
 
 $goin = 0;
@@ -103,7 +103,7 @@ if ($goin == 1) {
 		'$pspace', '$ptype', '$condition', '$furnishing', '$broom', '$batroom',	'$toilet', '$price', '$negotiate', 
 		'$elec', '$air', '$apart', '$balcony', '$chan', '$dinning', '$dishwash', '$hotwater', '$kitcab', 
 		'$micro', '$pop', '$prepa', '$frid', '$floor', '$tv', '$war', '$wifi', '$shelf',
-		'$dt', '$st', '$em', '$ip', '1','$uname', '$uid', 'active', '$transid', '$agent_fee', '$agreement_fee', '$commision_fee')");
+		'$dt', '$st', '$em', '$ip', '1','$uname', '$uid', 'inactive', '$transid', '$agent_fee', '$agreement_fee', '$commision_fee')");
 
 	if ($query) {
 		echo "Good";
