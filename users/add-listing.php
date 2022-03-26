@@ -55,7 +55,7 @@ $_SESSION['US_ln'];
               <h3 class="m-0">Add Listing</h3>
             </div>
             <div class="col-sm-6">
-              <ol class="breadcrumb float-sm-right" style="display:;">
+              <ol class="breadcrumb float-sm-right">
                 <li class="breadcrumb-item"><a href="../">Portal Home</a></li>
 
               </ol>
@@ -65,7 +65,7 @@ $_SESSION['US_ln'];
       </div>
 
 
-      <section class="content" style="display: ;">
+      <section class="content">
         <div class="container-fluid">
           <div class="card card-default">
             <div class="card-header"> </div>
@@ -74,7 +74,7 @@ $_SESSION['US_ln'];
               <form id="mydata" method="post" onSubmit="return false">
 
 
-                <div id="part1" style="display: ">
+                <div id="part1">
                   <p> Note: Fields with astericks are compulsory </p>
 
                   <div class="row" id="moree">

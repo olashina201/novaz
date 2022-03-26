@@ -60,7 +60,7 @@ while ($row = mysqli_fetch_array($qry)) {
               <h3 class="m-0">Promote My Ads</h3>
             </div>
             <div class="col-sm-6">
-              <ol class="breadcrumb float-sm-right" style="display:;">
+              <ol class="breadcrumb float-sm-right">
                 <li class="breadcrumb-item"><a href="../">Portal Home</a></li>
               </ol>
             </div>
@@ -77,7 +77,7 @@ while ($row = mysqli_fetch_array($qry)) {
 
             <div class="card-body">
               <div class="row">
-                <div class="col-md-6 " style="display: ">
+                <div class="col-md-6">
                   <div class"row">
                     <form method="post" class="form-horizontal" id="myform" onSubmit="return false">
 
