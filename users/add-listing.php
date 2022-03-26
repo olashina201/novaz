@@ -132,7 +132,6 @@ $_SESSION['US_ln'];
                                   ORDER BY cname ASC
                                   ");
                           while ($row = mysqli_fetch_array($mo)) {
-
                           ?>
                             <option><?php echo $row['cname']; ?> </option>
                           <?php

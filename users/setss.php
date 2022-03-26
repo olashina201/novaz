@@ -7,6 +7,5 @@ session_start();
 		{
 			echo 'Good';
 		}
- 
 
 ?>
