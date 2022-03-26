@@ -100,7 +100,7 @@ $_SESSION['US_ln'];
                     <div class="col-md-3">
                       <div class="form-group">
                         <label>purpose * </label>
-                        <select name="purpose" class="nice-select form-control" id="purpose">
+                        <select name="purpose" class="nice-select form-control" id="purpose" onChange="changeRentAndSale()">
                           <option Value="" selected="selected">Select</option>
                           <option value="1">For rent</option>
                           <option value="2">For sale</option>
@@ -115,7 +115,7 @@ $_SESSION['US_ln'];
                       </div>
 
                     </div>
-                    
+
                   </div>
 
                   <br>
@@ -143,16 +143,24 @@ $_SESSION['US_ln'];
                         </select>
                       </div>
                     </div>
-                    <div class="col-md-4">
-                      <div class="form-group">
-                        <label>Agency fee</label>
-                        <input type="text" class="form-control" name="agent_fee" id="agent_fee" placeholder="Agency fee">
+                    <div style="display:none" id="agent" class="col-md-12">
+                      <div class="col-md-4" id="agency">
+                        <div class="form-group">
+                          <label>Agency fee</label>
+                          <input type="text" class="form-control" name="agent_fee" id="agent_fee" placeholder="Agency fee">
+                        </div>
                       </div>
-                    </div>
-                    <div class="col-md-4">
-                      <div class="form-group">
-                        <label>Legal and agreement fee</label>
-                        <input type="text" class="form-control" name="agreement_fee" id="agreement_fee" placeholder="Legal and agreement fee">
+                      <div class="col-md-4" id="commission">
+                        <div class="form-group">
+                          <label>Commission fee</label>
+                          <input type="text" class="form-control" name="commission_fee" id="commission_fee" placeholder="Commission fee">
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="form-group">
+                          <label>Legal and agreement fee</label>
+                          <input type="text" class="form-control" name="agreement_fee" id="agreement_fee" placeholder="Legal and agreement fee">
+                        </div>
                       </div>
                     </div>
 
@@ -667,6 +675,22 @@ $_SESSION['US_ln'];
         document.getElementById("localset2").style.display = 'none';
         document.getElementById("nonset1").style.display = 'block';
         document.getElementById("nonset2").style.display = 'block';
+      }
+    }
+
+    function changeRentAndSale() {
+      var purpose = document.getElementById("purpose").value
+      var agent = document.getElementById("agency");
+      var commission = document.getElementById("commission");
+      
+      if (purpose == "1") {
+        document.getElementById("agent").style.display = 'block'
+        agent.style.display = 'block';
+        commission.style.display = 'none'
+      } else if (purpose == "2") {
+        document.getElementById("agent").style.display = 'block'
+        agent.style.display = 'none';
+        commission.style.display = 'block'
       }
     }
 
