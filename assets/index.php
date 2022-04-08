@@ -83,7 +83,7 @@ if ($goin == 1) {
 	$_SESSION['transid'] = $transid;
 
 	$_SESSION['lastid'] = $lastid;
-
+ 
 
 	$query = mysqli_query($link, "INSERT INTO 
 		tempcode(`transid`, `uid`, `busiid`)
